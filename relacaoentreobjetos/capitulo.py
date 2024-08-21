@@ -21,3 +21,7 @@ class Capitulo:
     
     def getTexto(self):
         return self.__texto
+
+    def exibirCapitulo(self):
+        print(f"{self.__numero} - {self.__titulo}")
+        print(self.__texto)
