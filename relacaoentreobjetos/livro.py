@@ -11,6 +11,8 @@ class Livro:
         self.__capitulos.append(capitulo)
 
     def imprimirLivro(self):
+
+        print(f"{self.__titulo} - {self.__autor} - {self.__ano}")
+
         for cap in self.__capitulos:
             cap.exibirCapitulo() 
-            
