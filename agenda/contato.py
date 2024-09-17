@@ -5,6 +5,15 @@ class Contato:
         self.__nome = nome
         self.__telefone = telefone
         self.__data_nascimento = data_nascimento
+    
+    def get_nome(self):
+        return self.__nome
+    
+    def get_telefone(self):
+        return self.__telefone
+    
+    def get_data_nascimento(self):
+        return self._da
 
     def exibirContato(self):
         print(f"Nome: {self.__nome}")
